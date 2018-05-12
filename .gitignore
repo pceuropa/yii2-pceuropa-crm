@@ -1,0 +1,34 @@
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+.buildpath
+.project
+.settings
+
+/assets
+/config
+/runtime
+/vendor
+/web/images
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+composer.phar
+composer.lock
+yii.bat
+
+*.pyc
+tests/__pycache__/
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+/phpunit.xml
+
+tests/_output/*
+tests/_output/*
