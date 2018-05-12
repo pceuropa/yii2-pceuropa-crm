@@ -5,9 +5,16 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use pceuropa\languageSelection\LanguageSelection;
 use yii\helpers\StringHelper;
-
 use lajax\translatemanager\models\Language;
-$languages = Language::getLanguageNamesCode(true);
+
+
+$languages = [
+  'pl' => 'pl',
+  'en' => 'en',
+];
+  
+  
+
 NavBar::begin([
                   'brandLabel' => Html::img('@img/logo/logo_small.png'),
                   'brandUrl' => Url::to(['/site/index']),

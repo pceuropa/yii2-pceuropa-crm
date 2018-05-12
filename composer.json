@@ -11,19 +11,19 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.0.0",
-        "yiisoft/yii2": ">=2.0.11",
+        "yiisoft/yii2": ">=2.0.12",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         
         "kartik-v/yii2-widget-select2": "^2.0",
 		"codemix/yii2-localeurls": "dev-master",
+        "lajax/yii2-translate-manager": "^1.7",
+        "lajax/yii2-language-picker": "1.*",
         "pceuropa/yii2-language-selection-widget": "dev-master",
         "pceuropa/yii2-ajax-sort": "dev-master",
         "pceuropa/yii2-forms": "2.0.0",
         "pceuropa/yii2-menu": "dev-master",
         "pceuropa/yii2-email": "^1.0",
-        "lajax/yii2-translate-manager": "^1.7",
-        "lajax/yii2-language-picker": "1.*",
         "bizley/migration": "^2.2"
     },
     
