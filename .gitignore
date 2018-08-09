@@ -13,6 +13,7 @@ nbproject
 /runtime
 /vendor
 /web/images
+/web/index.php
 
 # windows thumbnail cache
 Thumbs.db
